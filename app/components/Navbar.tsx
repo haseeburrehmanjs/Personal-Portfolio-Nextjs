@@ -14,19 +14,16 @@ export default function Navbar() {
         <span className="text-3xl font-semibold text-[#EB8317]">Haseeb Ur Rehman</span>
       </Link>
       <div className="hidden md:flex gap-4">
-        <Link href="#" className="text-lg font-medium hover:underline underline-offset-4" prefetch={false}>
+        <Link href="/" className="text-lg font-medium hover:underline underline-offset-4" prefetch={false}>
           Home
         </Link>
-        <Link href="#" className="text-lg font-medium hover:underline underline-offset-4" prefetch={false}>
+        <Link href="about" className="text-lg font-medium hover:underline underline-offset-4" prefetch={false}>
           About
         </Link>
-        <Link href="#" className="text-lg font-medium hover:underline underline-offset-4" prefetch={false}>
-          Services
+        <Link href="projects" className="text-lg font-medium hover:underline underline-offset-4" prefetch={false}>
+          Projects
         </Link>
-        <Link href="#" className="text-lg font-medium hover:underline underline-offset-4" prefetch={false}>
-          Portfolio
-        </Link>
-        <Link href="#" className="text-lg font-medium hover:underline underline-offset-4" prefetch={false}>
+        <Link href="contact" className="text-lg font-medium hover:underline underline-offset-4" prefetch={false}>
           Contact
         </Link>
       </div>
