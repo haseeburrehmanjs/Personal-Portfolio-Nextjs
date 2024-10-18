@@ -36,19 +36,16 @@ export default function Navbar() {
         </SheetTrigger>
         <SheetContent side="left">
           <div className="grid w-[200px] p-4">
-            <Link href="#" className="text-lg font-medium hover:underline underline-offset-4" prefetch={false}>
+            <Link href="/" className="text-lg font-medium hover:underline underline-offset-4" prefetch={false}>
               Home
             </Link>
-            <Link href="#" className="text-lg font-medium hover:underline underline-offset-4" prefetch={false}>
+            <Link href="about" className="text-lg font-medium hover:underline underline-offset-4" prefetch={false}>
               About
             </Link>
-            <Link href="#" className="text-lg font-medium hover:underline underline-offset-4" prefetch={false}>
-              Services
+            <Link href="projects" className="text-lg font-medium hover:underline underline-offset-4" prefetch={false}>
+              Projects
             </Link>
-            <Link href="#" className="text-lg font-medium hover:underline underline-offset-4" prefetch={false}>
-              Portfolio
-            </Link>
-            <Link href="#" className="text-lg font-medium hover:underline underline-offset-4" prefetch={false}>
+            <Link href="contact" className="text-lg font-medium hover:underline underline-offset-4" prefetch={false}>
               Contact
             </Link>
           </div>
